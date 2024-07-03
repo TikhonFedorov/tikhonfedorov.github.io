@@ -67,6 +67,7 @@ h1 {
 .heading {
     display: flex;
     width: 98%;
+    max-width: 1500px;
     align-items:flex-start;
     margin: 0 auto;
 }
