@@ -171,5 +171,7 @@ h3 {
         "aside4 aside4"
         "aside5 aside5";
     }
-
+ ul {
+     max-width: 98%;
+ }
 }
