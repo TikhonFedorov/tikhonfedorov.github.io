@@ -31,6 +31,7 @@ ul {
     backdrop-filter: blur(4.8px);
     -webkit-backdrop-filter: blur(4.8px);
     border: 1px solid rgba(255, 255, 255, 0.03);
+    max-width: 98%;
 }
 
 li {
@@ -80,6 +81,13 @@ h2 {
     line-height: 100%;
 }
 
+h3 {
+    margin-top: 250px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
 .bento {
     display: grid;
     width: 98%;
@@ -125,13 +133,29 @@ h2 {
   grid-area: aside5;
 }
 
-h3 {
-    margin-top: 250px;
+
+@media screen and (max-width: 960px) {
+    h1 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 90%;
+    letter-spacing: -2%;
+    margin: 2rem;
+}
+    h2 {
+    font-size: 32px;
     font-weight: 400;
     line-height: 100%;
 }
-
-@media screen and (max-width: 960px) {
+    h3 {
+    margin-top: 250px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+}
+.menu li{
+    font-size: 22px;
+    }
     .bento {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas:
@@ -139,6 +163,10 @@ h3 {
         "aside2 aside2 aside3 aside3"
         "aside4 aside4 aside5 aside5";
     }
+    .container {
+        border-radius: 36px;
+    }
+
 }
 @media screen and (max-width: 640px) {
     h1 {
@@ -155,22 +183,25 @@ h3 {
 }
     h3 {
     margin-top: 250px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 100%;
 }
 .menu li{
-    font-size: 24px;
+    font-size: 22px;
 }
-.bento {
-     grid-template-columns: repeat(2, 1fr);;
-     grid-template-areas:
-    "hero hero"
-    "aside2 aside2"
-    "aside3 aside3"
-    "aside4 aside4"
-     "aside5 aside5";
+
+    .bento {
+        grid-template-columns: repeat(2, 1fr);;
+        grid-template-areas:
+        "hero   hero"
+        "aside2 aside2"
+        "aside3 aside3"
+        "aside4 aside4"
+        "aside5 aside5";
     }
-ul {
-     max-width: 98%;
- }
+    .container {
+        border-radius: 24px;
+    }
+
 }
