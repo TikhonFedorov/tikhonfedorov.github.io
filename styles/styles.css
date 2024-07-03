@@ -161,17 +161,16 @@ h3 {
 .menu li{
     font-size: 24px;
 }
-
-    .bento {
-        grid-template-columns: repeat(2, 1fr);;
-        grid-template-areas:
-        "hero   hero"
-        "aside2 aside2"
-        "aside3 aside3"
-        "aside4 aside4"
-        "aside5 aside5";
+.bento {
+     grid-template-columns: repeat(2, 1fr);;
+     grid-template-areas:
+    "hero hero"
+    "aside2 aside2"
+    "aside3 aside3"
+    "aside4 aside4"
+     "aside5 aside5";
     }
- ul {
+ul {
      max-width: 98%;
  }
 }
