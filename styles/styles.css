@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 header {
@@ -79,6 +79,7 @@ h2 {
     font-size: 32px;
     font-weight: 400;
     line-height: 100%;
+    margin: 0;
 }
 
 h3 {
